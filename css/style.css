@@ -1,0 +1,39 @@
+body{
+    background:#000000;
+}
+#digitalClock{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:40%;
+    left:8%;
+    transform:translateX(-2%) translateY(-50%);
+    color:#17D4FE;
+    font-size:10rem;
+    font-family: 'orbitron', sans-serif;
+    letter-spacing: 7px;
+    font-weight:700;
+}
+.title{
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:7%;
+    font-size:45px;
+    transform: translateX(0%) translateY(-50%);
+    font-family:'Helvetica', sans-serif;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.sub-title{
+    color:#fff;
+    position: absolute;
+    top:69%;
+    left:7%;
+    font-size:25px;
+    transform: translateX(0%) translateY(-50%);
+    font-family:'Helvetica', sans-serif;
+    font-weight:500;
+    font-style: italic;
+}
